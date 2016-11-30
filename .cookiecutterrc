@@ -1,0 +1,49 @@
+# This file exists so you can easily regenerate your project.
+#
+# `cookiepatcher` is a convenient shim around `cookiecutter`
+# for regenerating projects (it will generate a .cookiecutterrc 
+# automatically for any template). To use it:
+#
+#    pip install cookiepatcher
+#    cookiepatcher gh:ionelmc/cookiecutter-pylibrary project-path
+#
+# See:
+#    https://pypi.python.org/pypi/cookiecutter
+#
+# Alternatively, you can run:
+#
+#    cookiecutter --overwrite-if-exists --config-file=project-path/.cookiecutterrc gh:ionelmc/cookiecutter-pylibrary
+
+default_context:
+
+    appveyor:                  'no'
+    c_extension_cython:        'no'
+    c_extension_optional:      'no'
+    c_extension_support:       'no'
+    codacy:                    'no'
+    codeclimate:               'no'
+    codecov:                   'yes'
+    command_line_interface:    'argparse'
+    command_line_interface_bin_name: 'roscoe'
+    coveralls:                 'no'
+    distribution_name:         'roscoe'
+    email:                     'rforgey@grumpydogconsulting.com'
+    full_name:                 'Bob Forgey'
+    github_username:           'sesamemucho'
+    landscape:                 'no'
+    package_name:              'roscoe'
+    project_name:              'Roscoe'
+    project_short_description: 'Skeleton project for automated testing of embedded projects'
+    release_date:              'today'
+    repo_name:                 'python-roscoe'
+    requiresio:                'yes'
+    scrutinizer:               'no'
+    sphinx_doctest:            'no'
+    sphinx_theme:              'sphinx-rtd-theme'
+    test_matrix_configurator:  'no'
+    test_matrix_separate_coverage: 'no'
+    test_runner:               'pytest'
+    travis:                    'yes'
+    version:                   '0.1.0'
+    website:                   'https://www.grumpydogconsulting.com'
+    year:                      'now'
